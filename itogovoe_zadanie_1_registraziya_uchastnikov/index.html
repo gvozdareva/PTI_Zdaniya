@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>form</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<form name="form1" method="get" onsubmit="return form_pack();">
+		<div>
+		<h1>Регистрация участников конференции</h1>
+		
+		Организация ОАО "БЕЗПРОБЛЕМ" проводит регистрация участников на конференцию<br />
+		Пожалуйста заполниет поля<br /><br />
+		</div>
+		<div >
+		Введите ФИО  <br />
+		<input name="input1" type ="text" /><br /><br />
+		Контактный телефон<br />
+		<input name="input2" type ="text" /><br /><br />
+		Адрес электронной формы <br />
+		<input name="input3" type ="text" /><br /><br />
+
+			<div>
+				В какой вы секции конференции? <br /><br />
+				<select name="age" id="age">
+					<option value="0">пусто</option>
+					<option value="1">математика</option>
+					<option value="2">физика</option>
+					<option value="2">информатика</option>
+				</select><br /><br />
+			</div>
+		Дата рождения <br />
+		<input name="input4" type ="text" /><br /><br />
+
+		</div>
+		<div>
+		Есть доклад? вы участник? <br />
+		<label>
+		<input name="input5" type ="radio" value="0" /> да
+		</label><label>
+		<input name="input5" type ="radio" value="1" /> нет, я слушатель
+		</label><label>
+		<input name="input5" type ="radio" value="2" /> я организатор
+		</label><br /><br />
+
+		Если у вас есть тема доклада,<br /> напишите её сюда<br />
+		<textarea>Напишите сюда, какая у вас тема</textarea><br />
+
+			<h1>Фидбэк</h1>
+
+		Ваши ожидания от конференции? :) <br />
+		<label>
+		<input name="input6" type ="radio" value="0" /> Будет интересно
+		</label><label>
+		<input name="input6" type ="radio" value="1"  /> Будет не интересно
+		</label><label>
+		<input name="input6" type ="radio" value="2" /> Ничего не жду
+		</label><br /><br />
+		</div>
+		<div class="rate1">
+		Проставьте галочки где считаете,<br /> что это будет на конференции:<br />
+		<input name="input7" type ="checkbox" value="1" /> Интересный рассказ<br />
+		<input name="input7" type ="checkbox" value="2" /> Яркое выступление<br />
+		<input name="input7" type ="checkbox" value="3" /> Надеюсь будут шарики
+		<br />
+		<br />
+		</div>
+
+
+		<input name="input10" type="submit" value="Отправить">
+
+		</form>
+
+	</body>
+
+
+</html>

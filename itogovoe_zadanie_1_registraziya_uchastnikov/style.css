@@ -1,0 +1,46 @@
+*{
+background : url(https://c.pxhere.com/photos/1d/49/heaven_light_white_clouds_nature_beauty-1171996.jpg!d);
+background-size: 100%;
+}
+input, textarea, select{border: 2px groove #AEBAC8;background :#FFF;}
+
+div{
+background :#C2D1E6;
+}
+
+form{
+width:40%;
+margin:120px;
+margin-left:320px;
+margin-right:320px;
+padding:25px;
+text-align:center;
+color:#5721EB;
+font-size: 18px;
+background :#C2D1E6;
+border: 8px solid #AEBAC8;
+border-radius: 50px;
+opacity: 0.7; 
+box-shadow:5px 5px 17px white;
+}
+
+
+.rate1{
+background :#C2D1E6;
+color:red;
+font-size: 22px;
+}
+
+.rate1:hover{
+border: 2px groove #AEBAC8;
+}
+
+label,h1{
+background:#C2D1E6;
+}
+label:hover{
+border: 2px groove black;
+}
+
+
+
