@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>test</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+
+    <form name="form1" method="get" onsubmit="return form_pack();">
+      <h1>Задание 5. Тест по основам веб-программирования, ООП, БД</h1>
+      <div>
+        Что такое "Инкапсуляция" ? <br />
+        <label> <input name="input1" type="radio" value="0" /> Механизм </label
+        ><label> <input name="input1" type="radio" value="1" /> Механизм+следствие </label
+        ><label> <input name="input1" type="radio" value="0" /> Следствие </label
+        ><br /><br />
+
+        Что такое "Атомарность" ? <br />
+        <label> <input name="input2" type="radio" value="0" /> какая-то ерунда </label
+        ><label> <input name="input2" type="radio" value="1" /> не делимая часть/сущность </label
+        ><label> <input name="input2" type="radio" value="0" /> От слова Атом </label
+        ><br /><br />
+
+        Что такое "Полиморфизм" ? <br />
+        <label> <input name="input3" type="radio" value="0" /> какая-то ерунда </label
+        ><label> <input name="input3" type="radio" value="1" /> перегрузка методов </label
+        ><label> <input name="input3" type="radio" value="0" /> От слова форма </label
+        ><br /><br />
+      </div>
+
+      <div class="rate1">
+         Что входит в понятие ACID ? <br />
+        <input name="input4" type="checkbox" value="0" /> Double<br />
+        <input name="input4" type="checkbox" value="1" /> Atomicity <br />
+        <input name="input4" type="checkbox" value="1" /> Isolation
+        <br />
+        <br />
+      </div>
+
+      <div class="rate2">
+        На какие части принято разделять SQL ?<br />
+        что это относится к животному:<br />
+        <input name="input5" type="checkbox" value="0" /> DDT <br />
+        <input name="input5" type="checkbox" value="1" /> DDL <br />
+        <input name="input5" type="checkbox" value="1" /> DML
+        <br />
+        <br />
+      </div>
+
+      <div class="rate3">
+       На какие группы  делятся заголовки в HTTP? <br />
+        <input name="input6" type="checkbox" value="0" /> Заголовки привета <br />
+        <input name="input6" type="checkbox" value="1" /> Заголовки запроса <br />
+        <input name="input6" type="checkbox" value="1" /> Заголовки ответа
+        <br />
+        <br />
+      </div>
+
+      <div>
+        На сколько групп делятся заголовки в HTTP (3,4,5) ? <br />
+        <input name="input7" type="text" /><br /><br />
+        При загрузки HTML-страницы бразуером создается набор объектов,<br />
+        сколько обязательных объектов содержит страница? (3,4,5) <br />
+        <input name="input8" type="text" /><br /><br />
+        На сколько частей делят SQL (3,4,5) ? <br />
+        <input name="input9" type="text" /><br /><br />
+      </div>
+
+      <div>
+        Год выхода языка JavaScript ?
+        <select name="zifra" id="zifra">
+          <option value="0">1900</option>
+          <option value="1">1946</option>
+          <option value="0">1995</option>
+          <option value="0">2010</option></select
+        ><br /><br />
+      </div>
+
+      <input name="input11" type="submit" value="Отправить" />
+    </form>
+  </body>
+</html>
